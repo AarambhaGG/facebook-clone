@@ -1,0 +1,43 @@
+Body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-logo{
+    width: 150px;
+    height: auto;
+}
+.nav-logo1{
+    width: 60px;
+    height: auto;
+}
+.nav-links{
+    display: flex;
+    /* horizontal to vertical */
+justify-content: space-between;
+/* barabar space dinxa hamro nav ko component ma */
+list-style: none;
+/* style type none garda bullet point janxa */
+width: 50%;
+}
+nav{
+    display: flex;
+    background-color: rgb(176, 171, 165);
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+}
+.main-logo{
+    height: 15rem;
+   margin-top: 21rem;
+   margin-left: 19rem;
+}
+.motto{
+    
+   margin-top: -4%;
+   margin-left: 20rem;
+}
