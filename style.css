@@ -1,6 +1,7 @@
 Body{
     margin: 0px;
     padding: 0px;
+    background-color: #F2F4F7;
 }
 .nav-logo{
     width: 150px;
@@ -32,12 +33,35 @@ header{
     top: 0px;
 }
 .main-logo{
-    height: 15rem;
-   margin-top: 21rem;
+    height: 10rem;
+    width: 20rem;
+   margin-top: 10rem;
    margin-left: 19rem;
 }
 .motto{
-    
-   margin-top: -4%;
+    width: 20rem;
+   margin-top: -3%;
    margin-left: 20rem;
 }
+form{
+    display: flex;
+    flex-direction: column
+    ;
+    width: 10rem;
+    margin-left: 72rem;
+    align-items: center;
+}
+   .right-side {
+height: 15rem;
+width: 20rem;
+background-color: rgb(255, 255, 255);
+margin-left: 67rem;
+/* margin-bottom: 25rem; */
+margin-top: -8rem;
+
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+}
+
