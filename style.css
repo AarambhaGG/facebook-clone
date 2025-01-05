@@ -1,7 +1,7 @@
 Body{
     margin: 0px;
     padding: 0px;
-    background-color: #F2F4F7;
+    background-color: #e4e5e5;
 }
 .nav-logo{
     width: 150px;
@@ -42,6 +42,7 @@ header{
     width: 20rem;
    margin-top: -3%;
    margin-left: 20rem;
+   font-size: x-large;
 }
 form{
     display: flex;
@@ -50,18 +51,39 @@ form{
     width: 10rem;
     margin-left: 72rem;
     align-items: center;
+    border-radius: 5px;
+    height: 10rem;
 }
    .right-side {
-height: 15rem;
+height: 20rem;
 width: 20rem;
 background-color: rgb(255, 255, 255);
 margin-left: 67rem;
 /* margin-bottom: 25rem; */
-margin-top: -8rem;
+margin-top: -14rem;
 
 display: flex;
 justify-content: center;
 align-items: center;
-border: 2px solid black;
-}
+box-shadow: 0 5px 15px -5px black;
 
+}
+.login{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+width: 9rem;
+
+}
+.create{
+    background-color: rgb(0, 255, 47);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+.right-selection{
+    
+}
